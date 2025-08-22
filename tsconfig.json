@@ -1,0 +1,14 @@
+
+{
+  "extends": "./yt-api-service/functions/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["yt-api-service/functions/src/*"]
+    }
+  },
+  "include": [
+    "yt-api-service/functions/src/**/*"
+  ]
+}
+
